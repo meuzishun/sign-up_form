@@ -1,3 +1,5 @@
+@import url('../../assets/Norse-Bold.otf');
+
 * {
   margin: 0;
   padding: 0;
@@ -128,7 +130,7 @@ section {
       padding: 2rem;
 
       button {
-        color: #ddd;
+        color: #fff;
         background-color: #5d4157;
         padding: 1rem 3rem;
         text-transform: capitalize;
@@ -140,7 +142,7 @@ section {
 
         &:hover {
           cursor: pointer;
-          color: #fff;
+          color: #ddd;
         }
       }
 
