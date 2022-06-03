@@ -88,7 +88,7 @@ section {
   form {
     .input-container {
       background-color: #fff;
-      padding: 1rem 2rem;
+      padding: 2rem 2rem;
       box-shadow: 0 0.2rem 0.5rem #ddd;
 
       h2 {
@@ -114,6 +114,12 @@ section {
             text-transform: uppercase;
             font-size: 0.75rem;
             letter-spacing: 0.1rem;
+          }
+
+          .instructions {
+            text-transform: lowercase;
+            font-size: 0.6rem;
+            letter-spacing: 0.05;
           }
 
           input {
