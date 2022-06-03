@@ -9,7 +9,6 @@ const validateForm = function (e) {
       helpMsg.textContent = 'Passwords must match';
       confirmPassword.parentElement.classList.add('invalid');
       e.preventDefault();
-      return;
     }
     console.log('form is good');
   } else {
