@@ -129,6 +129,16 @@ section {
               box-shadow: 0.1rem 0.1rem 0.3rem #999;
             }
           }
+
+          &.invalid {
+            input {
+              background-color: rgb(255, 209, 209);
+
+              &:focus {
+                border: 1px solid rgb(255, 0, 0);
+              }
+            }
+          }
         }
       }
     }
